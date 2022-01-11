@@ -1,0 +1,10 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Site'
+theme = 'basic'
+
+[params]
+author = "Alberto Ortiz Flores"
+description = "Hugo site"
+collection_url = "http://sites.dlib.nyu.edu/viewer/api/v1/objects?collection=io&rows=24"
+viwer_api_endpoint = "http://stage-sites.dlib.nyu.edu/viewer/api"

@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="presentations-container">
+    <section class="presentations-list">
+      <h2>Presentations</h2>
+      <ul>
+        {{ range (where .Site.RegularPages "Type" "in" "presentations") }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <section class="presentations">
+      <h2>{{ .Title }}</h2>
+
+      {{ .Content }}
+    </section>
+
+  </div>
+{{ end }}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <h2>{{ .Title }}</h2>
+
+  {{ .Content }}
+  {{ $url := printf "%s" .Site.Params.collection_url }}
+  {{ $viwer_api_endpoint := printf "%s" .Site.Params.viwer_api_endpoint }}
+  {{ $repos := getJSON $url }}
+
+  <section class="oss">
+    {{ range $repos.response.docs }}
+      <article>
+        <h3><a href="{{ .identifier }}">{{ .title }}</a></h3>
+        <img src="{{ $viwer_api_endpoint }}/image/{{ .type }}s/{{ .identifier }}/1/full/150,/0/default.jpg" alt="{{ .title }}" loading="lazy">
+      </article>
+    {{ end }}
+  </section>
+
+{{ end }}

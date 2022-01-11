@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital objects</title>
+      <link>http://example.org/digital-objects/</link>
+      <pubDate>Fri, 12 Nov 2021 17:46:20 -0500</pubDate>
+      
+      <guid>http://example.org/digital-objects/</guid>
+      <description>Example of using DLTS Viewer API to render Digital objects.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Thu, 11 Nov 2021 13:38:37 -0500</pubDate>
+      
+      <guid>http://example.org/contact/</guid>
+      <description>This is my contact page</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://example.org/resume/</link>
+      <pubDate>Thu, 11 Nov 2021 11:50:42 -0500</pubDate>
+      
+      <guid>http://example.org/resume/</guid>
+      <description>This is my list of lists</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Thu, 11 Nov 2021 11:42:22 -0500</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>This is my About page.</description>
+    </item>
+    
+    <item>
+      <title>Awesomeco</title>
+      <link>http://example.org/projects/awesomeco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/awesomeco/</guid>
+      <description>Summary of the AwesomeCo project</description>
+    </item>
+    
+    <item>
+      <title>Coca Cola</title>
+      <link>http://example.org/presentations/coca-cola/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/presentations/coca-cola/</guid>
+      <description>Description&amp;hellip;
+Tech used  item item item  </description>
+    </item>
+    
+    <item>
+      <title>Linkitvity</title>
+      <link>http://example.org/projects/linkitvity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/linkitvity/</guid>
+      <description>Summary of the Linkitvity project</description>
+    </item>
+    
+    <item>
+      <title>Pepsi</title>
+      <link>http://example.org/presentations/pepsi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/presentations/pepsi/</guid>
+      <description>Description&amp;hellip;
+Tech used  item item item  </description>
+    </item>
+    
+  </channel>
+</rss>
