@@ -9,7 +9,7 @@ services:
       - ./public:/usr/local/apache2/htdocs
   hugo:
     image: klakegg/hugo
-    command: server
+    command: server --renderToDisk
     volumes:
       - ".:/src"
     ports:
