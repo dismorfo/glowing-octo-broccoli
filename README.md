@@ -6,8 +6,9 @@
 
 ### Run
 
-Inside the project directory run `docker-compose up`.
+Inside the project directory run `"docker-compose up"`.
 
+To use docker-compose detached mode, run `"docker-compose up -d"` instead of `"docker-compose up"`. The app will run as a background process. To see the app logs when running detached mode, use `docker-compose logs -f`.
 ### Live 
 
 Once the project is up and running you can visit the site using Hugo's development server (http://localhost:1313/) or Apache Server (http://localhost:8008/)
