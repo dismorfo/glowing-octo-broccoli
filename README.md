@@ -22,6 +22,7 @@ Hugo's development server has the benefit of live reload.
 
 The source will be mounted in both containers, this enable the ability to make modifications in the source code and see the changes live in the container without building the image.
 
+Site will be "render" to to destination path (inside `public` directory) instead or memory.
 ## Hugo shell
 
 The [Hugo shell](https://hub.docker.com/r/klakegg/hugo/) is available, see image [README.md](https://github.com/klakegg/docker-hugo) for more information.
