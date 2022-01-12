@@ -7,3 +7,10 @@ services:
       - 8008:80
     volumes:
       - ./public:/usr/local/apache2/htdocs
+  hugo:
+    image: klakegg/hugo
+    command: server
+    volumes:
+      - ".:/src"
+    ports:
+      - 1313:1313
