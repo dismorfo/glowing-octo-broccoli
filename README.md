@@ -1,7 +1,7 @@
 # Hugo example
 
 #### Requirements
-- [Hugo](https://gohugo.io/)
+- [Hugo](https://gohugo.io/) (if you plan to run `hugo` command in your machine instead of the Hugo shell from the container)
 - [Docker Compose](https://docs.docker.com/compose/)
 
 ### Run
