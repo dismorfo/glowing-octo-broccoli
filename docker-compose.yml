@@ -8,7 +8,7 @@ services:
     volumes:
       - ./public:/usr/local/apache2/htdocs
   hugo:
-    image: klakegg/hugo
+    image: klakegg/hugo:0.92.1-ext-ubuntu
     command: server --renderToDisk --verbose --forceSyncStatic --debug --cleanDestinationDir
     volumes:
       - ".:/src"
